@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+
 body{
     background: rgba(0, 0, 0, 0.7);
     background-image: url(../images/architecture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    position: relative;
+}
+
+.navbar-brand{
+    font-family: 'Glegoo', serif;
+    color: #2B2828;
+    font-size: 60px;
 }
