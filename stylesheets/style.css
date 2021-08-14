@@ -95,6 +95,7 @@ body .navbar-brand{
     text-align: center;
     font-family: 'Comfortaa', cursive;
     position: relative;
+    color: black;
 }
 
 #services{
@@ -109,4 +110,9 @@ body .navbar-brand{
     color: black;
     font-family: 'Comfortaa', cursive;
     text-align: center;
+}
+
+#imgservices{
+
+    
 }
