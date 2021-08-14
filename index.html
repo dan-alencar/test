@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -11,22 +14,46 @@
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-2">
-
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Liebevoll</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nossas Vantagens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Procurar</button>
+          </form>
+      
+        </div>
       </nav>
-
     </header>
 
-    <section class="my-5">
-      <div class="container pt-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7 text-center">
+    <section class="Home">
+      <div class="container pt-5" id="Home">
+        <div class="row">
+          <div class="col-3" id="frontpage">
+            <h3>Conecte-se com sua casa dos sonhos</h3>
+            <button type="button" class="btn btn-dark sub-h3" id="orçamento">Faça seu orçamento</button>
           </div>
         </div>
       </div>
-
     </section>
+
 
   
 

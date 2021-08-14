@@ -1,15 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+
+
 
 body{
-    background: rgba(0, 0, 0, 0.7);
-    background-image: url(../images/architecture.jpg);
+    font-family: 'Comfortaa', cursive;
+}
+
+header .navbar{
+    width: 100%;
+    background-color: #DFA919;
+    transition: background ease-out 0.2s;
+    border-bottom: solid 4px black;
+}
+
+header .nav-link{
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+
+}
+
+body .navbar-brand{
+    font-family: 'Glegoo', serif;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+.form-inline {
+    margin-left:  10px;
+}
+
+.Home{
+    background-image: url(https://media-public.canva.com/-sJVU/MAEV5x-sJVU/1/s.jpg);
+     width: 100%;
+     height: 800px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: relative;
 }
 
-.navbar-brand{
+#frontpage{
+    padding-top: 450px;
+    color: black;
     font-family: 'Glegoo', serif;
-    color: #2B2828;
-    font-size: 60px;
+    font-size: 1rem;
+    text-align:center;
+}
+
+#orçamento{
+    color: black;
+    font-family: 'Glegoo', serif;
 }
