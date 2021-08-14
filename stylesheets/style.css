@@ -103,7 +103,6 @@ body .navbar-brand{
     text-align: center;
     position: relative;
     padding-top: 50px;
-    padding-bottom: 10px;
 }
 
 .services-und{
@@ -115,4 +114,16 @@ body .navbar-brand{
 #imgservices{
     width: 60%;   
     padding-bottom: 20px; 
+}
+
+.clients{
+    background-color: #CDC2AC;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+    color: #2B2828;
+    text-align: center;
+}
+
+#clients{
+    padding-top: 50px;
 }
