@@ -141,5 +141,22 @@ footer{
     font-size: 3rem;
 }
 
-.class{
+#rodapefinal{
+    padding-top: 50px;
+    color: #2B2828 !important;
+    font-family: 'Comfortaa', cursive;
+}
+
+.rodapelinks{
+    color: #2B2828 !important;
+}
+
+#enviar{
+    text-align: center;
+}
+
+.list-inline{
+    padding-top: 20px;
+    color: #2B2828 !important;
+    font-family: 'Comfortaa', cursive;
 }
