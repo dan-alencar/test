@@ -27,8 +27,8 @@ header .nav-link{
 
 body .navbar-brand{
     font-family: 'Glegoo', serif;
-    font-weight: 1000;
-    font-size: xx-large;
+    font-weight: 500;
+    font-size: 3rem;
 }
 
 .form-inline {
@@ -126,4 +126,20 @@ body .navbar-brand{
 
 #clients{
     padding-top: 50px;
+}
+
+footer{
+    background-color: #DFA919;
+    position: relative;
+    color: #2B2828;
+    text-align: center;
+}
+
+.footer-brand{
+    font-family: 'Glegoo', serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.class{
 }

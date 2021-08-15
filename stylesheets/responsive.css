@@ -9,3 +9,9 @@
     text-align: left;
     }
 }
+
+@media (max-width: 991.98px) {
+    #imgservices{
+        width: 30%;
+    }
+}
